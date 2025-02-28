@@ -1,11 +1,11 @@
 {
-  "name": "plisystem_workstation",
+  "name": "vshtech_workstation",
   "version": "1.0.0",
-  "description": "deskapp version of plisystem_workstation",
+  "description": "detect and warning traffic jam and crowd sense",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron .",
+    "start": "electron-forge start",
     "dev:watch": "npx electronmon --trace-warnings .",
     "package": "electron-forge package",
     "make": "electron-forge make"
@@ -17,8 +17,7 @@
   "author": "Nguyễn Minh Tuấn",
   "license": "MIT",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.1",
-    "glob": "^11.0.1"
+    "electron-squirrel-startup": "^1.0.1"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.7.0",
@@ -30,8 +29,5 @@
     "@electron-forge/plugin-fuses": "^7.7.0",
     "@electron/fuses": "^1.8.0",
     "electron": "^34.3.0"
-  },
-  "overrides": {
-    "glob": "^11.0.1"
   }
 }

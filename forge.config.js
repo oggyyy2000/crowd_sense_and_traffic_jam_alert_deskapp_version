@@ -23,7 +23,7 @@ module.exports = {
       name: "@electron-forge/maker-deb",
       config: {
         options: {
-          icon: "./assets/logo.png",
+          icon: "./assets/drone_logo_white.svg",
         },
       },
     },
